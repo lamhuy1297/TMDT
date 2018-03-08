@@ -2,38 +2,42 @@
 	margin:0px;
 	padding:0px;
 }
-
-
-
-#menu {
+body{
+	background-image:url(image/background.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	font-family:"Times New Roman", Times, serif;
+}
+#menu{
 	width:960px;
 	margin:0 auto;
 }
-
 header{
 	position:relative;
 }
-
 .menu{
 	position:absolute;
 	top:0px;
 	right:0px;
 }
 
+div.logo{
+	display: block;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
 article{
 	float:right;
 	width:700px;
-	
 }
 aside{
 	float:left;
 	width:260px;
-	
 }
 footer{
 	clear:both;
 }
-
 .ketthuc{
 	font-weight:bold;
 	font-size:20px;
@@ -53,7 +57,6 @@ footer p{
 	color:#000;
 	font-weight:bold;
 }
-
 .chuchay1{
 	background-color:#782af4;
 	color:#FFF;
@@ -67,7 +70,6 @@ footer p{
 	padding-left:30px;
 	background-color:#a929f4;
 	border-radius:10px;
-
 }
 .menu1 ul li{
 	padding:10px;
@@ -86,7 +88,7 @@ footer p{
 	margin:0px 3px;
 }
 .button{
-	background-color:#782af4;
+	background-color:#bc28f2;
 	height:30px;
 	line-height:30px;
 	border-radius:5px;
@@ -117,6 +119,7 @@ h3{
 .menu2{
 	background-color:#a929f4;
 	border-radius:10px;
+	
 }
 .menu2 p{
 	text-align:center;
@@ -162,7 +165,8 @@ nav ul ul a{
 	color:white;
 	font-weight:bold;
 	text-decoration:none;
-	padding:10px 10px;}  	
+	padding:10px 10px;}
+	  	
 nav > ul > li:hover>ul{
 	display:block;
 }	
@@ -174,4 +178,8 @@ transition-duration: 0.5s;
 }
 .a img:hover{
 transform:scale(1.5);
+}
+
+.dmsp ul li{
+	list-style: none;
 }
