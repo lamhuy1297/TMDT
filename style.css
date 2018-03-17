@@ -3,7 +3,7 @@
 	padding:0px;
 }
 body{
-	background-image:url(image/background.jpg);
+	background-image:url(image/br.png);
 	background-repeat:no-repeat;
 	background-size:100% 100%;
 	font-family:"Times New Roman", Times, serif;
@@ -17,14 +17,18 @@ header{
 }
 .menu{
 	position:absolute;
-	top:0px;
-	right:0px;
+	top:20px;
+	right:15px;
+}
+.menu a{
+	text-decoration: none;
+	color: #555555;
 }
 
 div.logo{
 	display: block;
     padding-top: 20px;
-    padding-left: 20px;
+    padding-left: 320px;
 }
 
 article{
@@ -67,12 +71,13 @@ footer p{
 	border-radius:10px;
 }
 .menu1{
-	padding-left:30px;
+	margin-top: 20px;
+	padding: 10px 0px 10px 30px;
 	background-color:#a929f4;
 	border-radius:10px;
 }
 .menu1 ul li{
-	padding:10px;
+	padding:7px;
 }
 .menu1 ul li a{
 	text-decoration:none;
@@ -112,19 +117,24 @@ footer p{
 	text-align:center;
 }
 h3{
+	font-size: 18px;
 	color:#FFF;
 	font-weight:bold;
-	margin-top:19px;
 }
 .menu2{
+	margin-top: 20px;
+	padding: 10px 0px 10px 0px;
 	background-color:#a929f4;
 	border-radius:10px;
+
+
 	
 }
 .menu2 p{
 	text-align:center;
 	color:black;
 	font-weight:bold;
+	margin: 10px;
 }
 nav>ul>li{
 	display:inline-block;
@@ -149,6 +159,8 @@ nav>ul{
 	border-radius:10px;
 	background-color:#782af4;
 	text-align:center;
+	font-size: 18px;
+
 	} 		
 nav ul ul{
 	position:absolute;
@@ -182,4 +194,7 @@ transform:scale(1.5);
 
 .dmsp ul li{
 	list-style: none;
+}
+img.tieude{
+	padding-top: 5px;
 }
