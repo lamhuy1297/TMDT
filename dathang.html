@@ -28,31 +28,37 @@
 		font-style:italic;
 	}
 	.h{
-		width:250px;
+		width:300px;
 		height:40px;
 		border-radius:10px;
 		border:2px solid #bc28f2;
-		padding-left: 0px;
+		padding-left: 10px;
 		}
 	.ha{
-		width:575px;
+		width:220px;
 		height:40px;
 		border-radius:10px;
 		border:2px solid #bc28f2;
-		
+		padding-left: 10px;
+		margin-left: 25px;
 		}
 	.hh{
+		display: block;
 		border-radius:10px;
 		border:2px solid #bc28f2;
+		padding-left: 10px;
+		padding-top: 10px;
+		margin-left: 120px;
+		margin-top: 10px;
 		}
 	.hu{
-		padding:0 75px;
+		padding-left: 130px;
 	}
 	button{
 		background-color:#bc28f2;
 		color:white;
 		height:40px;
-		width:110px;
+		width:150px;
 		border-radius:7px;
 	}
 
@@ -89,21 +95,21 @@
 
 	<article>
 	<br />
-	<img src="image/lh.png" width="700px"/>
+	<img src="image/dh.png" width="700px"/>
 	<br />
 	<br />
 
 	<form onsubmit="return validateForm()">
-	<div>&nbsp;&nbsp<a>Họ Tên khách*</a>&nbsp;&nbsp;
+	<div>&nbsp;&nbsp;<a>Họ Tên khách*</a>&nbsp;&nbsp;
 	<input class="h" type="text" id="username" placeholder="Mời bạn nhập tên"/>
 	<div class="val_error" id="name_error"></div></div><br />
-	<div>&nbsp;&nbsp<a>Số điện thoại*</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<div>&nbsp;&nbsp;<a>Số điện thoại*</a>&nbsp;&nbsp;&nbsp;&nbsp;
 	<input class="h" type="text" id="sdt" placeholder="Mời bạn nhập số điện thoại"/>
 	 <div class="val_error" id="sdt_error"></div></div><br />
-	<div>&nbsp;&nbsp<a>Số lượng</a>&nbsp;&nbsp;&nbsp;
+	<div>&nbsp;&nbsp;<a>Số lượng</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	<input class="ha" type="text" id="topic" placeholder="Mời bạn nhập số lượng sản phẩm"/>
 	 <div class="val_error" id="topic_error"></div></div><br />
-	<div>&nbsp;&nbsp<a>Địa chỉ giao hàng</a>
+	<div>&nbsp;&nbsp;<a>Địa chỉ giao hàng</a>
 	<textarea class="hh" rows="10" cols="70" id="content" placeholder="Mời bạn nhập địa chỉ giao hàng"></textarea>
 	 <div class="val_error" id="content_error"></div></div><br />
 	<div class="hu"><button type="submit">Xác nhận đặt hàng</button></div>
